@@ -1,0 +1,2 @@
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/hello_world/build/bootloader/gdbinit/symbols
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/hello_world/build/bootloader/gdbinit/connect
