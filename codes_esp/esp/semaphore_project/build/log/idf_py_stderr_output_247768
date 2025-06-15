@@ -1,0 +1,374 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818f9: panic_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/panic.c:454
+--- 0x400857fd: esp_system_abort at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b6b5: __assert_func at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/assert.c:80
+--- 0x40085ba2: xQueueGenericSend at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:936 (discriminator 1)
+--- 0x400d6634: producerTask at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_project/main/semaphore_project.c:48
+--- 0x40086031: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m
