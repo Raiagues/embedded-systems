@@ -1,0 +1,13 @@
+/.vscode/
+/esp/esp-idf/
+/esp/*/build/
+
+sdkconfig
+sdkconfig.old
+*.pyc
+*.log
+*.bin
+*.elf
+*.map
+*~
+*.swp
