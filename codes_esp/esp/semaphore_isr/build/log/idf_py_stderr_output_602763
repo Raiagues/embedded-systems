@@ -1,0 +1,125 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d6962: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:81
+[0m
+[0;33m--- 0x400d2403: uart_hal_write_txfifo at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/uart_hal_iram.c:27
+--- 0x400d6962: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:81
+[0m
+[0;33m--- 0x400d695f: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:81
+--- 0x400830ae: gpio_isr_loop at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x4008313e: gpio_intr_service at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e5d: _xt_lowint1 at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008651e: vPortClearInterruptMaskFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40085f80: xQueueGiveFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1516
+--- 0x400d696d: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400d4939: uart_ll_get_txfifo_len at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:428
+---  (inlined by) uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d4936: uart_ll_get_txfifo_len at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:428
+---  (inlined by) uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+--- 0x400d504b: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:243
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5939: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d9cd1: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d9dad: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d9ddb: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6991: taskWaitingClick at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:100
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40085f15: xQueueGiveFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1385
+[0m
+[0;33m--- 0x400d2403: uart_hal_write_txfifo at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/uart_hal_iram.c:27
+--- 0x40085f15: xQueueGiveFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1385
+[0m
+[0;33m--- 0x40085f12: xQueueGiveFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1367 (discriminator 2)
+--- 0x400d696d: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+--- 0x400830ae: gpio_isr_loop at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x4008313e: gpio_intr_service at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e5d: _xt_lowint1 at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40086335: xPortInIsrContext at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:453
+--- 0x400d696d: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400d492c: uart_ll_get_txfifo_len at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:428
+---  (inlined by) uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d4929: uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:188
+--- 0x400d504b: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:243
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5939: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d9cd1: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d9dad: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d9ddb: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6991: taskWaitingClick at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:100
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d6965: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+[0m
+[0;33m--- 0x400d2403: uart_hal_write_txfifo at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/uart_hal_iram.c:27
+--- 0x400d6965: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+[0m
+[0;33m--- 0x400d6962: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:81
+--- 0x400830ae: gpio_isr_loop at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x4008313e: gpio_intr_service at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e5d: _xt_lowint1 at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40085f12: xQueueGiveFromISR at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1367 (discriminator 2)
+--- 0x400d696d: taskButton at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:83
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400d4934: uart_ll_get_txfifo_len at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:428
+---  (inlined by) uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d4931: uart_ll_get_txfifo_len at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:428
+---  (inlined by) uart_tx_char at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+--- 0x400d504b: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:243
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5939: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5f06: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d9cd1: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d9dad: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d9ddb: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6991: taskWaitingClick at /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/main/semaphore_isr.c:100
+--- 0x40086185: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

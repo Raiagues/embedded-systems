@@ -1,0 +1,2 @@
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/build/gdbinit/symbols
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/semaphore_isr/build/gdbinit/connect

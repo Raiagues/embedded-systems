@@ -1,0 +1,29 @@
+0000000000000000000000000000000000000000 63b386702584d257707cb3464e0f4bce2a65087c Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748503799 +0200	clone: from github.com:Raiagues/embedded-systems.git
+63b386702584d257707cb3464e0f4bce2a65087c df72c5f0228d0a94e5f231e78e57879a2a7e7ee3 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748503966 +0200	commit: test led
+df72c5f0228d0a94e5f231e78e57879a2a7e7ee3 e03031a36ea478b2dd84cbd1b04f3dd0616d72b5 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748503982 +0200	commit: test ldr
+e03031a36ea478b2dd84cbd1b04f3dd0616d72b5 5bf7db4c9b1b2827e31550163f34a094d533ea3a Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748503996 +0200	commit: test button
+5bf7db4c9b1b2827e31550163f34a094d533ea3a a8784aa2edc1dd718303778c15f06b19cf1058a2 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504010 +0200	commit: test buzzer
+a8784aa2edc1dd718303778c15f06b19cf1058a2 6b0ec8f625aef8f016c8e56a22dc03794cbe912b Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504050 +0200	commit: test ultrassom
+6b0ec8f625aef8f016c8e56a22dc03794cbe912b 1dced33a63dd78f656615a698e3c37f37b0d6b43 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504074 +0200	commit: test ultrassom + buzzer
+1dced33a63dd78f656615a698e3c37f37b0d6b43 93aff6d8991db0c529b9b3333d747ac0338832ae Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504200 +0200	commit: test servo
+93aff6d8991db0c529b9b3333d747ac0338832ae 6425f030783005fc4b4f13139e1752afa6f56c39 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504335 +0200	commit: lib ultrassom
+6425f030783005fc4b4f13139e1752afa6f56c39 46e793f761f81ef0ef972cae6d0d7718305f62f5 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504373 +0200	commit: lib temperature and humidity sensor
+46e793f761f81ef0ef972cae6d0d7718305f62f5 f30e59ab818e6147b253e0d6b2f41916c126289b Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504402 +0200	commit: lib digital display
+f30e59ab818e6147b253e0d6b2f41916c126289b f0c5d26b525b273cf34c43b164960cc08ac891a0 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504420 +0200	commit: test digital display
+f0c5d26b525b273cf34c43b164960cc08ac891a0 4d031af8ed1b5c33d481d24f61d2ae956b505997 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504439 +0200	commit: test digital display + ultrassom
+4d031af8ed1b5c33d481d24f61d2ae956b505997 ed7e3ad93e9ae7cb29c1c0682eef7efbda9a553e Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504474 +0200	commit: test display LCD
+ed7e3ad93e9ae7cb29c1c0682eef7efbda9a553e 822245bd501ffd57b638a01b576d008e6dcf3533 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504495 +0200	commit: test joystick
+822245bd501ffd57b638a01b576d008e6dcf3533 fd25021863cf5a6564804228191d9c5215f30819 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504513 +0200	commit: test servo + button
+fd25021863cf5a6564804228191d9c5215f30819 a9e96bac62c4a03ffa09d629ffdf8b444ff143ef Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504532 +0200	commit: test servo + joystcik
+a9e96bac62c4a03ffa09d629ffdf8b444ff143ef c8957b289dcbca3e95b353b2d8a7a8f73d52d7ed Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748504556 +0200	commit: test temperature + humidity
+c8957b289dcbca3e95b353b2d8a7a8f73d52d7ed 374f68b83e21eba48527b1074a29655253465e5a Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530696 +0200	commit: test OLED
+374f68b83e21eba48527b1074a29655253465e5a da3a28707b8102cc162291cdd1ced8290b899633 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530706 +0200	commit: test OLED animation
+da3a28707b8102cc162291cdd1ced8290b899633 4684cb782bd81e17fa74f01fb6a9d35812490c08 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530727 +0200	commit: Test obstacle avoidance
+4684cb782bd81e17fa74f01fb6a9d35812490c08 dd1439b6c819d151d921f0c89ddeae684d7d4547 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530760 +0200	commit: test movemtn sensor
+dd1439b6c819d151d921f0c89ddeae684d7d4547 dc8db26c2a6526fb73fcd5631c587618f8cea1d0 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530816 +0200	commit: test humidity
+dc8db26c2a6526fb73fcd5631c587618f8cea1d0 8d6165ebd76068b86692b44002f6c170b293bf8e Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1748530836 +0200	commit: add bib
+8d6165ebd76068b86692b44002f6c170b293bf8e cccad1416bde0e7c4f89fbad0fb717ae67d6388b Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1749900058 +0200	commit: added correct folder
+cccad1416bde0e7c4f89fbad0fb717ae67d6388b 493cc349591b16170a77997208fa04cdcb84611e Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1749901326 +0200	commit: hello-world test
+493cc349591b16170a77997208fa04cdcb84611e c40b898bf6d46bb5990efcaab200de8ac996661b Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1749976439 +0200	commit: task project
+c40b898bf6d46bb5990efcaab200de8ac996661b 99bd255aa7ce3738be368274975bcd8e3947a4eb Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1749979902 +0200	commit: queue project
+99bd255aa7ce3738be368274975bcd8e3947a4eb f85bd55001719a9c9848ea3764a0ac88c8a568d6 Emilly Raiane <Emilyrayannerodrigues@gmail.com> 1750005066 +0200	commit: semaphore project
