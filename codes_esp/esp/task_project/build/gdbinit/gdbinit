@@ -1,0 +1,2 @@
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/build/gdbinit/symbols
+source /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/build/gdbinit/connect

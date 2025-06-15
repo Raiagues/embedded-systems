@@ -15,3 +15,15 @@ https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.ht
 ### Exit IDF monitor
 
 `Ctrl+]`
+
+### Clean a build 
+
+`idf.py fullclean`
+
+## Create a project
+
+`idf.py create-project -p . project_name`
+
+## Open menuconfig
+
+`idf.py menuconfig`

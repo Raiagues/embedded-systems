@@ -1,0 +1,469 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008683a: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x40086837: vListInsert at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x40087495: vTaskPlaceOnEventList at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x40085ec8: xQueueSemaphoreTake at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40085f26: xQueueTakeMutexRecursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082839: lock_acquire_generic at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:146
+--- 0x40082941: _lock_acquire_recursive at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/newlib/locks.c:162
+--- 0x400d4cbb: uart_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:234
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d55ed: console_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/esp_vfs_console/vfs_console.c:71
+--- 0x400d5bba: esp_vfs_write at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/vfs/vfs.c:945 (discriminator 4)
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400d8861: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400d893d: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+--- 0x400d896b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x400d6616: first_task at /home/rodriger/Documents/embedded-systems/codes_esp/esp/task_project/main/task_project.c:16
+--- 0x40085fe9: vPortTaskWrapper at /home/rodriger/Documents/embedded-systems/codes_esp/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m
