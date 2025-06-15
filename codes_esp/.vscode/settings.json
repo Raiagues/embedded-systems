@@ -6,6 +6,11 @@
     "freertosconfig_arch.h": "c",
     "xtensa_config.h": "c",
     "core.h": "c",
-    "esp_system.h": "c"
-  }
+    "esp_system.h": "c",
+    "stdio.h": "c",
+    "queue.h": "c",
+    "portmacro.h": "c",
+    "esp_cpu.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
